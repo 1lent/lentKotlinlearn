@@ -1,1 +1,1 @@
-just notes and shit learning java
+just notes and shit learning KT for a project
