@@ -118,12 +118,12 @@ fun elses() {
     //ifelse
 
     var time3 = 0
-    var tim4 = if (time3 < -1) {
+    var tim4 = if (time3 < 1) {
         "Good day"
     } else {
         "good day not!"
     } //pout good day not
-
+    println(tim4 == "Good day")
     println(tim4)
 
     //Note: You can ommit the curly braces {} when if has only one statement:
