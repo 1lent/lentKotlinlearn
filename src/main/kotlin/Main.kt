@@ -2,7 +2,26 @@ package com.oneclient
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-fun main() {
+
+  class car(year: Int, price: Int) {
+    fun drive() {
+      println("vrooom")
+    }
+     fun speed(MaxSpeed: Int) {
+      println("Your speed is: " + MaxSpeed)
+    }
+  }
+  fun main() {
+   val c1 = car(2013, 200000000)
+   c1.speed(200)
+   c1.drive()
+  }
+}  
+
+
+
+
+fun e() {
 
     var greeting = "Hello"
     println(greeting) // hello
